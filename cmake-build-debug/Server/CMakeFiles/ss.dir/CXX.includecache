@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cwork/socket/Server/sclient.h
+winsock2.h
+-
+iostream
+-
+
+E:/Cwork/socket/Server/server.cpp
+server.h
+E:/Cwork/socket/Server/server.h
+sclient.h
+E:/Cwork/socket/Server/sclient.h
+
+E:/Cwork/socket/Server/server.h
+iostream
+-
+winsock2.h
+-
+winbase.h
+-
+vector
+-
+map
+-
+string
+-
+process.h
+-
+sclient.h
+E:/Cwork/socket/Server/sclient.h
+

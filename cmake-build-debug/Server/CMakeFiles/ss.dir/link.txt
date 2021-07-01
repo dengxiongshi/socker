@@ -1,0 +1,3 @@
+E:\develop\CMake\bin\cmake.exe -E rm -f CMakeFiles\ss.dir/objects.a
+E:\develop\msys64\mingw64\bin\ar.exe cr CMakeFiles\ss.dir/objects.a @CMakeFiles\ss.dir\objects1.rsp
+E:\develop\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\ss.dir/objects.a -Wl,--no-whole-archive  -o ss.exe -Wl,--out-implib,libss.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ss.dir\linklibs.rsp

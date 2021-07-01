@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="socket"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\TCP\;CMake Files\UDP\;CMake Files\Client\;CMake Files\Server\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socket">
+				<Option output="E:/Cwork/socket/cmake-build-debug/socket.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 socket"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="socket/fast">
+				<Option output="E:/Cwork/socket/cmake-build-debug/socket.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 socket/fast"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="E:/Cwork/socket/cmake-build-debug/server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="E:/Cwork/socket/cmake-build-debug/server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="E:/Cwork/socket/cmake-build-debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="E:/Cwork/socket/cmake-build-debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_server">
+				<Option output="E:/Cwork/socket/cmake-build-debug/TCP/tcp_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/TCP"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/TCP/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 tcp_server"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_server/fast">
+				<Option output="E:/Cwork/socket/cmake-build-debug/TCP/tcp_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/TCP"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/TCP/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 tcp_server/fast"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_client">
+				<Option output="E:/Cwork/socket/cmake-build-debug/TCP/tcp_client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/TCP"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/TCP/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 tcp_client"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_client/fast">
+				<Option output="E:/Cwork/socket/cmake-build-debug/TCP/tcp_client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/TCP"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/TCP/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 tcp_client/fast"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/TCP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_client">
+				<Option output="E:/Cwork/socket/cmake-build-debug/UDP/udp_client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/UDP"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/UDP/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 udp_client"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_client/fast">
+				<Option output="E:/Cwork/socket/cmake-build-debug/UDP/udp_client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/UDP"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/UDP/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 udp_client/fast"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_server">
+				<Option output="E:/Cwork/socket/cmake-build-debug/UDP/udp_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/UDP"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/UDP/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 udp_server"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udp_server/fast">
+				<Option output="E:/Cwork/socket/cmake-build-debug/UDP/udp_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/UDP"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/UDP/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 udp_server/fast"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/UDP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cc">
+				<Option output="E:/Cwork/socket/cmake-build-debug/Client/cc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/Client/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 cc"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cc/fast">
+				<Option output="E:/Cwork/socket/cmake-build-debug/Client/cc.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/Client"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/Client/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 cc/fast"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Client/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ss">
+				<Option output="E:/Cwork/socket/cmake-build-debug/Server/ss.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/Server"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/Server/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Server/Makefile&quot;  VERBOSE=1 ss"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ss/fast">
+				<Option output="E:/Cwork/socket/cmake-build-debug/Server/ss.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Cwork/socket/cmake-build-debug/Server"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Cwork/socket/Server/."/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"/>
+					<Add directory="E:/develop/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Server/Makefile&quot;  VERBOSE=1 ss/fast"/>
+					<CompileFile command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/develop/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/Cwork/socket/cmake-build-debug/Server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Cwork/socket/Client/client.cpp">
+			<Option target="cc"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/Client/client.h">
+			<Option target="cc"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/Client/main.cpp">
+			<Option target="cc"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/Server/main.cpp">
+			<Option target="ss"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/Server/sclient.cpp">
+			<Option target="ss"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/Server/sclient.h">
+			<Option target="ss"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/Server/server.cpp">
+			<Option target="ss"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/Server/server.h">
+			<Option target="ss"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/TCP/tcp_client.c">
+			<Option target="tcp_client"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/TCP/tcp_server.c">
+			<Option target="tcp_server"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/UDP/udp_client.c">
+			<Option target="udp_client"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/UDP/udp_server.c">
+			<Option target="udp_server"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/client_tcp.c">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/main.c">
+			<Option target="socket"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/server_tcp.c">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/TCP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TCP\"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/UDP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\UDP\"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/Client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Client\"/>
+		</Unit>
+		<Unit filename="E:/Cwork/socket/Server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Server\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

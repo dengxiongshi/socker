@@ -1,0 +1,3 @@
+E:\develop\CMake\bin\cmake.exe -E rm -f CMakeFiles\cc.dir/objects.a
+E:\develop\msys64\mingw64\bin\ar.exe cr CMakeFiles\cc.dir/objects.a @CMakeFiles\cc.dir\objects1.rsp
+E:\develop\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\cc.dir/objects.a -Wl,--no-whole-archive  -o cc.exe -Wl,--out-implib,libcc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cc.dir\linklibs.rsp

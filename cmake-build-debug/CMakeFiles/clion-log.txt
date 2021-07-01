@@ -1,0 +1,4 @@
+E:\develop\CMake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Cwork\socket
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Cwork/socket/cmake-build-debug

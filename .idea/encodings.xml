@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Client/client.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Client/client.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Client/main.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Server/main.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Server/sclient.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Server/sclient.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Server/server.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Server/server.h" charset="GBK" />
+  </component>
+</project>
